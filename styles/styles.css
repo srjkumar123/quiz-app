@@ -1,0 +1,75 @@
+@font-face {
+    font-family: sunflower;
+    src: url(sunflower.otf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(148,210,191);
+    position: relative;
+    font-family:sunflower;
+}
+
+#box{
+    height: 55vh;
+    width: 25vw;
+    background-color: rgb(255,255,255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.3);
+    padding: 15px;
+}
+
+.question{
+    font-size: 1.8rem;
+}
+.row{
+    margin: 2rem;
+    margin-left: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.btn{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(4,170,110);
+    border-style: none;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    border-radius: 12px;
+    color: #fff;
+}
+.none{
+    display: none;
+}
+.score{
+    height: 25vh;
+    width: 45vw;
+    background-color: rgb(255,255,255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    font-size: 30px;
+    
+    
+
+}
